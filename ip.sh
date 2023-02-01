@@ -1,5 +1,5 @@
 #!/bin/bash
-ip=10.93.160.209
+ip=10.93.160
 for i in {1..255}
  do
  ping -c 1 "$ip.$i" > /dev/null
